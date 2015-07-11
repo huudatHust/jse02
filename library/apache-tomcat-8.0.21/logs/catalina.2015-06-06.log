@@ -1,0 +1,425 @@
+06-Jun-2015 17:06:34.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.21
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 23 2015 14:11:21 UTC
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.21.0
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jun-2015 17:06:34.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_11\jre
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_11-b12
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\eclipWindown\eclipse\apache-tomcat-8.0.21
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\eclipWindown\eclipse\apache-tomcat-8.0.21
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DATK571102
+06-Jun-2015 17:06:34.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\logging.properties
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\eclipWindown\eclipse\apache-tomcat-8.0.21\endorsed
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\eclipWindown\eclipse\apache-tomcat-8.0.21
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\eclipWindown\eclipse\apache-tomcat-8.0.21
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\eclipWindown\eclipse\apache-tomcat-8.0.21\temp
+06-Jun-2015 17:06:34.357 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\DevProgram\Oracle11g\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Oracle;.
+06-Jun-2015 17:06:35.380 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jun-2015 17:06:35.758 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2015 17:06:35.780 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2015 17:06:35.783 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Jun-2015 17:06:35.783 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2661 ms
+06-Jun-2015 17:06:36.044 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-Jun-2015 17:06:36.045 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.21
+06-Jun-2015 17:06:36.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\BKLibraryManagement.xml
+06-Jun-2015 17:06:36.564 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+06-Jun-2015 17:06:44.936 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jun-2015 17:06:45.103 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-Jun-2015 17:06:45.294 INFO [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Jun 06 17:06:45 ICT 2015]; root of context hierarchy
+06-Jun-2015 17:06:45.378 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+06-Jun-2015 17:06:46.015 INFO [localhost-startStop-1] org.springframework.context.support.PropertySourcesPlaceholderConfigurer.loadProperties Loading properties file from ServletContext resource [/WEB-INF/jdbc.properties]
+06-Jun-2015 17:06:46.214 INFO [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+06-Jun-2015 17:06:46.531 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1428 ms
+06-Jun-2015 17:06:46.777 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [245] milliseconds.
+06-Jun-2015 17:06:47.209 INFO [localhost-startStop-1] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-default.xml]
+06-Jun-2015 17:06:47.430 INFO [localhost-startStop-1] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts-plugin.xml]
+06-Jun-2015 17:06:47.510 INFO [localhost-startStop-1] com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.info Parsing configuration file [struts.xml]
+06-Jun-2015 17:06:47.516 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+06-Jun-2015 17:06:47.516 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+06-Jun-2015 17:06:47.517 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+06-Jun-2015 17:06:47.517 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+06-Jun-2015 17:06:47.517 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+06-Jun-2015 17:06:47.517 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+06-Jun-2015 17:06:47.518 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+06-Jun-2015 17:06:47.518 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+06-Jun-2015 17:06:47.518 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+06-Jun-2015 17:06:47.518 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+06-Jun-2015 17:06:47.518 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+06-Jun-2015 17:06:47.519 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+06-Jun-2015 17:06:47.519 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+06-Jun-2015 17:06:47.519 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+06-Jun-2015 17:06:47.519 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+06-Jun-2015 17:06:47.519 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+06-Jun-2015 17:06:47.520 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+06-Jun-2015 17:06:47.520 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+06-Jun-2015 17:06:47.520 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+06-Jun-2015 17:06:47.520 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+06-Jun-2015 17:06:47.520 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+06-Jun-2015 17:06:47.536 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+06-Jun-2015 17:06:47.536 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+06-Jun-2015 17:06:47.536 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+06-Jun-2015 17:06:47.537 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+06-Jun-2015 17:06:47.537 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+06-Jun-2015 17:06:47.539 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+06-Jun-2015 17:06:47.539 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+06-Jun-2015 17:06:47.540 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+06-Jun-2015 17:06:47.540 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+06-Jun-2015 17:06:47.540 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+06-Jun-2015 17:06:47.540 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+06-Jun-2015 17:06:47.540 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+06-Jun-2015 17:06:47.541 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+06-Jun-2015 17:06:47.541 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+06-Jun-2015 17:06:47.541 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+06-Jun-2015 17:06:47.541 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+06-Jun-2015 17:06:47.541 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+06-Jun-2015 17:06:47.542 INFO [localhost-startStop-1] org.apache.struts2.config.AbstractBeanSelectionProvider.info Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+06-Jun-2015 17:06:47.563 INFO [localhost-startStop-1] org.apache.struts2.spring.StrutsSpringObjectFactory.info Initializing Struts-Spring integration...
+06-Jun-2015 17:06:47.563 INFO [localhost-startStop-1] com.opensymphony.xwork2.spring.SpringObjectFactory.info Setting autowire strategy to name
+06-Jun-2015 17:06:47.564 INFO [localhost-startStop-1] org.apache.struts2.spring.StrutsSpringObjectFactory.info ... initialized Struts-Spring integration successfully
+06-Jun-2015 17:06:49.091 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Unable to read class [com.jgeppert.struts2.bootstrap.views.velocity.components.BootstrapAbstractDirective]
+ Could not load org/apache/velocity/runtime/directive/Directive.class - [unknown location]
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:723)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.access$400(ClassFinder.java:71)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.extractSuperInterfaces(ClassFinder.java:770)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.visit(ClassFinder.java:757)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:718)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.access$400(ClassFinder.java:71)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.extractSuperInterfaces(ClassFinder.java:770)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.visit(ClassFinder.java:757)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:718)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.<init>(ClassFinder.java:113)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:390)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+06-Jun-2015 17:06:49.125 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Unable to read class [org.apache.struts2.StrutsSpringTestCase]
+ Could not load junit/framework/TestCase.class - [unknown location]
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:723)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.access$400(ClassFinder.java:71)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.extractSuperInterfaces(ClassFinder.java:770)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.visit(ClassFinder.java:757)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:718)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.access$400(ClassFinder.java:71)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.extractSuperInterfaces(ClassFinder.java:770)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.visit(ClassFinder.java:757)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:718)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.access$400(ClassFinder.java:71)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.extractSuperInterfaces(ClassFinder.java:770)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$InfoBuildingClassVisitor.visit(ClassFinder.java:757)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.readClassDef(ClassFinder.java:718)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.<init>(ClassFinder.java:113)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:390)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+06-Jun-2015 17:06:49.296 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Error loading class [com.jgeppert.struts2.bootstrap.views.velocity.components.BootstrapAbstractDirective]
+ java.lang.NoClassDefFoundError: org/apache/velocity/runtime/directive/Directive
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at com.opensymphony.xwork2.util.finder.ClassLoaderInterfaceDelegate.loadClass(ClassLoaderInterfaceDelegate.java:34)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$ClassInfo.get(ClassFinder.java:563)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:613)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:600)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.findClasses(ClassFinder.java:343)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:393)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.velocity.runtime.directive.Directive
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	... 45 more
+
+06-Jun-2015 17:06:49.607 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Error loading class [com.jgeppert.struts2.bootstrap.views.velocity.components.HeadDirective]
+ java.lang.NoClassDefFoundError: org/apache/velocity/runtime/directive/Directive
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at com.opensymphony.xwork2.util.finder.ClassLoaderInterfaceDelegate.loadClass(ClassLoaderInterfaceDelegate.java:34)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$ClassInfo.get(ClassFinder.java:563)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:613)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:600)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.findClasses(ClassFinder.java:343)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:393)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.velocity.runtime.directive.Directive
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	... 52 more
+
+06-Jun-2015 17:06:49.691 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Error loading class [org.apache.struts2.StrutsSpringTestCase]
+ java.lang.NoClassDefFoundError: junit/framework/TestCase
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at com.opensymphony.xwork2.util.finder.ClassLoaderInterfaceDelegate.loadClass(ClassLoaderInterfaceDelegate.java:34)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$ClassInfo.get(ClassFinder.java:563)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:613)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:600)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.findClasses(ClassFinder.java:343)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:393)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: junit.framework.TestCase
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	... 52 more
+
+06-Jun-2015 17:06:49.777 SEVERE [localhost-startStop-1] com.opensymphony.xwork2.util.finder.ClassFinder.error Error loading class [org.apache.struts2.StrutsTestCase]
+ java.lang.NoClassDefFoundError: junit/framework/TestCase
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2472)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1274)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	at com.opensymphony.xwork2.util.finder.ClassLoaderInterfaceDelegate.loadClass(ClassLoaderInterfaceDelegate.java:34)
+	at com.opensymphony.xwork2.util.finder.ClassFinder$ClassInfo.get(ClassFinder.java:563)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:613)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder$3.test(PackageBasedActionConfigBuilder.java:600)
+	at com.opensymphony.xwork2.util.finder.ClassFinder.findClasses(ClassFinder.java:343)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.findActions(PackageBasedActionConfigBuilder.java:393)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:347)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:274)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.getContainer(Dispatcher.java:967)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:435)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:479)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4573)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5192)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1720)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: junit.framework.TestCase
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1305)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1157)
+	... 45 more
+
+06-Jun-2015 17:06:50.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\BKLibraryManagement.xml has finished in 14,538 ms
+06-Jun-2015 17:06:50.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\Demo.xml
+06-Jun-2015 17:06:50.699 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+06-Jun-2015 17:06:50.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\Demo.xml has finished in 158 ms
+06-Jun-2015 17:06:50.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\WebTutor.xml
+06-Jun-2015 17:06:50.843 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+06-Jun-2015 17:06:51.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\eclipWindown\eclipse\apache-tomcat-8.0.21\conf\Catalina\localhost\WebTutor.xml has finished in 290 ms
+06-Jun-2015 17:06:51.116 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\docs
+06-Jun-2015 17:06:51.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\docs has finished in 65 ms
+06-Jun-2015 17:06:51.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\examples
+06-Jun-2015 17:06:55.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\examples has finished in 4,384 ms
+06-Jun-2015 17:06:55.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\host-manager
+06-Jun-2015 17:06:55.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\host-manager has finished in 219 ms
+06-Jun-2015 17:06:55.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\manager
+06-Jun-2015 17:06:55.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\manager has finished in 98 ms
+06-Jun-2015 17:06:55.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\ROOT
+06-Jun-2015 17:06:55.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\eclipWindown\eclipse\apache-tomcat-8.0.21\webapps\ROOT has finished in 44 ms
+06-Jun-2015 17:06:55.934 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jun-2015 17:06:55.946 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2015 17:06:55.947 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 20164 ms
+06-Jun-2015 17:08:00.191 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jun-2015 17:08:00.191 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jun-2015 17:08:00.245 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2015 17:08:00.295 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-Jun-2015 17:08:00.374 INFO [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Jun 06 17:06:45 ICT 2015]; root of context hierarchy
+06-Jun-2015 17:08:00.381 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BKLibraryManagement] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+06-Jun-2015 17:08:00.443 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jun-2015 17:08:00.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Jun-2015 17:08:00.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jun-2015 17:08:00.452 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

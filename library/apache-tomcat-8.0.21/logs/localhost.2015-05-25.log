@@ -1,0 +1,275 @@
+25-May-2015 00:48:47.724 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-May-2015 00:48:47.836 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+25-May-2015 00:49:00.362 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-May-2015 00:49:00.362 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-May-2015 01:57:33.220 SEVERE [http-nio-8080-exec-54] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/WebTutor] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error, insert ">" to complete ReferenceType1
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+a cannot be resolved to a type
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Constructor call must be the first statement in a constructor
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+href cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+google cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error on token "/", delete this token
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+a cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error, insert ">" to complete ReferenceType1
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+a cannot be resolved to a type
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Constructor call must be the first statement in a constructor
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+href cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+google cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+Syntax error on token "/", delete this token
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+An error occurred at line: 19 in the jsp file: /bt2_application.jsp
+a cannot be resolved to a variable
+16:             String name = request.getParameter("username");
+17:             out.print("welcome " + name + " to jsp");
+18:             String link = application.getInitParameter("google");
+19:             <a href = link>google</a>
+20:             response.sendRedirect(link);
+21:         %>
+22:     </body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:580)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:356)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1517)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1474)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2015 02:18:10.518 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+25-May-2015 02:18:10.907 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-May-2015 02:18:10.908 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-May-2015 09:11:55.704 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-May-2015 09:11:55.822 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+25-May-2015 09:12:09.413 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-May-2015 09:12:09.413 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-May-2015 09:57:29.713 SEVERE [http-nio-8080-exec-61] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/WebTutor] threw exception [/bt4_useBean.jsp (line: 15, column: 8) The value for the useBean class attribute ../src/java/WebTutor/Cube.java is invalid.] with root cause
+ org.apache.jasper.JasperException: /bt4_useBean.jsp (line: 15, column: 8) The value for the useBean class attribute ../src/java/WebTutor/Cube.java is invalid.
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:275)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:107)
+	at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1317)
+	at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1178)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2376)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2428)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2434)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:464)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2376)
+	at org.apache.jasper.compiler.Generator.generate(Generator.java:3594)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:250)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:580)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:356)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:668)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1517)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1474)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2015 11:13:59.694 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+25-May-2015 11:13:59.909 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-May-2015 11:13:59.909 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

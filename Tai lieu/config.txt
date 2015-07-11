@@ -1,0 +1,5 @@
+db : 
+type : mysql
+dbname : StudentManager
+username : root
+pass : 
