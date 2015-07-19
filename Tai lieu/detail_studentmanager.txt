@@ -1,0 +1,20 @@
+﻿1 : school :
+bảng này để chưa thông tin về các trường đại học của các sinh viên .để các ứng viên khi đăng kí sẽ chọn trong danh sách các trường
+ví du : bka : đại học bách khoa hà nôi
+
+2: person : chứa thông tin các nhân các sinh viên trong đó ta lấy cmt(chứng minh thư) làm khóa chính vi mỗi người chỉ có 1 số cmt .
+	+ nó tham chiếu đến mã trường trong bảng school
+	+ được tham chiếu bởi 2 bảng studnet va applicant
+3 : student :la những laber(sinh viên lab) chứa mã sinh viên và tham chiếu đến thông tin sinh viên trong bảng person 
+4 : resource : là các thông tin mà trung tâm cấp cho các laber như tài khoản account, vdi hay tài khoản mantis
+5 : applicat(ứng viên) : chứa thông tin các ứng viên đăng kí vào lab. có trường statusid để thông báo ưng viên pass hay không pass.con cái grade tức là khóa bao nhiêu của lab ví dụ khóa 1, 2. nhưng m đang định đẩy nó vào person luôn vì bên student có lẽ cũng cần cái grade
+
+6 : status : bảng này chứa thông tin về mã trạng thái ví dụ bảo lưu, chấm dứt, qua , không qua, ... có thêm stylePerson(chưa thấy tên nào ý nghĩa hơn) . cái này để phân loại trạng thái cho tưng loại người. 
+ví dụ : ứng viên có stylePerson : 1 thi chi co trạng thái pass/not pass
+sinh viên có stylePerson : 2 thì có các trạng thái học bt/bảo lưu, ....
+
+7 : apptostudate ( date when application to student lab) : lưu mã sinh viên và ứng viên và ngày chuyển . chỗ này t chưa thấy hợp lý lắm nên cần bàn sau. 
+
+8 :event : lưu lai các sự việc quan trọng xảy ra . như khi sinh viên chuyển từ học sang bảo lưu thì cần phải save lại thời gian, lý do chuyển cùng mã sinh viên va tên của sự kiện cũng được khai báo trong bảng status
+
+9 : bảng admin : dùng cho ngươi quản lí
