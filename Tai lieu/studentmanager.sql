@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 19, 2015 at 02:00 PM
+-- Generation Time: Aug 23, 2015 at 08:04 PM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -166,6 +166,49 @@ CREATE TABLE IF NOT EXISTS `student` (
   KEY `FK_STUDEN_STATUS` (`statusId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `studentregister`
+--
+
+CREATE TABLE IF NOT EXISTS `studentregister` (
+  `stuId` char(9) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `subId` char(4) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`stuId`,`subId`),
+  KEY `FK_STUDENTREG_SUBJECT` (`subId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `subject`
+--
+
+CREATE TABLE IF NOT EXISTS `subject` (
+  `id` char(4) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `numTC` int(11) DEFAULT NULL,
+  `notes` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `timesubject`
+--
+
+CREATE TABLE IF NOT EXISTS `timesubject` (
+  `subId` char(4) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `classId` varchar(5) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `room` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `beginDate` date DEFAULT NULL,
+  `endDate` date DEFAULT NULL,
+  `notes` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  KEY `FK_TIMESUBJECT_SUBJECT` (`subId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 --
 -- Constraints for dumped tables
 --
@@ -188,8 +231,8 @@ ALTER TABLE `apptostudate`
 -- Constraints for table `event`
 --
 ALTER TABLE `event`
-  ADD CONSTRAINT `FK_EVENT_STUDENT` FOREIGN KEY (`stuId`) REFERENCES `student` (`id`),
-  ADD CONSTRAINT `FK_EVENT_STATUS` FOREIGN KEY (`statusId`) REFERENCES `status` (`id`);
+  ADD CONSTRAINT `FK_EVENT_STATUS` FOREIGN KEY (`statusId`) REFERENCES `status` (`id`),
+  ADD CONSTRAINT `FK_EVENT_STUDENT` FOREIGN KEY (`stuId`) REFERENCES `student` (`id`);
 
 --
 -- Constraints for table `person`
@@ -209,6 +252,19 @@ ALTER TABLE `resource`
 ALTER TABLE `student`
   ADD CONSTRAINT `FK_STUDENT_PERSON` FOREIGN KEY (`cmt`) REFERENCES `person` (`cmt`),
   ADD CONSTRAINT `FK_STUDEN_STATUS` FOREIGN KEY (`statusId`) REFERENCES `status` (`id`);
+
+--
+-- Constraints for table `studentregister`
+--
+ALTER TABLE `studentregister`
+  ADD CONSTRAINT `FK_STUDENTREG_STUDENT` FOREIGN KEY (`stuId`) REFERENCES `student` (`id`),
+  ADD CONSTRAINT `FK_STUDENTREG_SUBJECT` FOREIGN KEY (`subId`) REFERENCES `subject` (`id`);
+
+--
+-- Constraints for table `timesubject`
+--
+ALTER TABLE `timesubject`
+  ADD CONSTRAINT `FK_TIMESUBJECT_SUBJECT` FOREIGN KEY (`subId`) REFERENCES `subject` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
