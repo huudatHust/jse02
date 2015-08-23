@@ -6,23 +6,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Product List</title>
+<title>Admin List</title>
 </head>
 <body>
     <div align="center">
         <table width="80%" border="1" style="border-collapse: collapse;">
             <tr>
                 <th>No</th>
-                <th>Product Name</th>
-                <th>Description</th>
-                <th>Price</th>
+                <th>Name</th>
+                <th>Pass</th>
+                
             </tr>
             <s:iterator value="listProduct" status="stat">
                 <tr>
                     <td><s:property value="#stat.count" /></td>
-                    <td><s:property value="name" /></td>
-                    <td><s:property value="description" /></td>
-                    <td><s:property value="price" /></td>
+                    <td><s:property value="username" /></td>
+                    <td><s:property value="password" /></td>
                 </tr>
             </s:iterator>         
         </table>

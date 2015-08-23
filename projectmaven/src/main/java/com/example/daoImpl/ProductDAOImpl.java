@@ -6,9 +6,8 @@
 package com.example.daoImpl;
 
 import com.example.dao.ProductDAO;
-import com.example.model.Product;
+import com.example.model.Admin;
 import java.util.List;
-import javax.transaction.Transactional;
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
 
@@ -16,19 +15,15 @@ import org.hibernate.SessionFactory;
  *
  * @author TRAN HUU DAT
  */
-public class ProductDAOImpl implements ProductDAO{
- private SessionFactory sessionFactory;
- 
-    public ProductDAOImpl(SessionFactory sessionFactory) {
+public class ProductDAOImpl implements ProductDAO {
+
+    private SessionFactory sessionFactory;
+    public ProductDAOImpl(SessionFactory sessionFactory){
         this.sessionFactory = sessionFactory;
     }
- 
     @Override
-    @Transactional
-    public List<Product> list() {
-        @SuppressWarnings("unchecked")
-        List<Product> listProduct = (List<Product>)
-            sessionFactory.getCurrentSession().createCriteria(Product.class)
+    public List<Admin> list() {
+        List<Admin> listProduct = (List<Admin>) sessionFactory.openSession().createCriteria(Admin.class)
                 .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY)
                 .list();
         return listProduct;

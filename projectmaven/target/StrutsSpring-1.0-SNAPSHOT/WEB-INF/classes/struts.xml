@@ -10,13 +10,19 @@
     <!--<constant name="struts.custom.i18n.resources" value="ApplicationResources" />-->
     
     <package name="default" extends="struts-default">
+        <action name="">
+            <result>/index.jsp</result>
+        </action>
         <action name="index">
-            <result>/WEB-INF/Content/index.jsp</result>
+            <result>/index.jsp</result>
+        </action>
+        <action name="login">
+            <result>/WEB-INF/Content/login.jsp</result>
         </action>
          <action name="listProduct" class="listProductActionBean">
             <result name="success">/WEB-INF/Content/ProductList.jsp</result>
         </action>
-
+        
     </package>
 
 </struts>

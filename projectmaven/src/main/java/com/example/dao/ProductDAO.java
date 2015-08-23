@@ -5,7 +5,7 @@
  */
 package com.example.dao;
 
-import com.example.model.Product;
+import com.example.model.Admin;
 import java.util.List;
 
 /**
@@ -13,5 +13,5 @@ import java.util.List;
  * @author TRAN HUU DAT
  */
 public interface ProductDAO {
-    List<Product> list();
+    List<Admin> list();
 }
