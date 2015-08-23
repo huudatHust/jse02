@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 23, 2015 10:23:28 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="com.example.model">
+    <class name="Applicant" table="applicant" catalog="studentmanager">
+        <id name="id" type="string">
+            <column name="id" length="9" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="person" class="Person" fetch="select"  >
+            <column name="cmt" length="20" not-null="true" />
+        </many-to-one>
+        <many-to-one name="status" class="Status" fetch="select">
+            <column name="statusId" />
+        </many-to-one>
+        <property name="grade" type="java.lang.Integer">
+            <column name="grade" />
+        </property>
+        <set name="apptostudates" table="apptostudate" inverse="true" lazy="true" fetch="select" >
+            <key>
+                <column name="appId" length="9" not-null="true" />
+            </key>
+            <one-to-many class="Apptostudate" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 23, 2015 10:23:28 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="com.example.model">
+    <class name="Apptostudate" table="apptostudate" catalog="studentmanager">
+        <composite-id name="id" class="ApptostudateId">
+            <key-property name="appId" type="string">
+                <column name="appId" length="9" />
+            </key-property>
+            <key-property name="stuId" type="string">
+                <column name="stuId" length="9" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="student" class="Student" update="false" insert="false" fetch="select">
+            <column name="stuId" length="9" not-null="true" />
+        </many-to-one>
+        <many-to-one name="applicant" class="Applicant" update="false" insert="false" fetch="select">
+            <column name="appId" length="9" not-null="true" />
+        </many-to-one>
+        <property name="time" type="date">
+            <column name="time" length="10" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

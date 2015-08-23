@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 23, 2015 10:23:28 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="com.example.model">
+    <class name="Resource" table="resource" catalog="studentmanager">
+        <id name="studentId" type="string">
+            <column name="studentId" length="9" />
+            <generator class="foreign">
+                <param name="property">student</param>
+            </generator>
+        </id>
+        <one-to-one name="student" class="Student" constrained="true"></one-to-one>
+        <property name="account" type="string">
+            <column name="account" length="20" />
+        </property>
+        <property name="vdi" type="string">
+            <column name="vdi" length="20" />
+        </property>
+        <property name="mantis" type="string">
+            <column name="mantis" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>
